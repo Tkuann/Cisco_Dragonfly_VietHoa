@@ -4,4 +4,8 @@ __pycache__/
 .env
 03_Translated/
 05_Cache/translation_cache.json
-06_Logs/
+06_Logs/01_Mod_Files/
+03_Translated/
+04_ResourcePack/
+05_Cache/translation_cache.json
+*.zip
