@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+.env
+03_Translated/
+05_Cache/translation_cache.json
+06_Logs/
