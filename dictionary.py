@@ -6,6 +6,7 @@ from config import DICTIONARY_FOLDER
 class DictionaryManager:
 
     def __init__(self):
+        self.master = self.load_dictionary("master_rpg.json")
         self.ui = self.load_dictionary("ui.json")
         self.item = self.load_dictionary("item.json")
         self.spell = self.load_dictionary("spell.json")
@@ -19,6 +20,9 @@ class DictionaryManager:
 
         with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
+
+    def exact_lookup(self, text, dictionary):
+        return dictionary.get(text)
 
     def replace_terms(self, text, dictionary):
         result = text
@@ -41,29 +45,49 @@ class DictionaryManager:
 
         return None
 
-    def translate_ui(self, text):
-        return self.replace_terms(text, self.ui)
-
-    def translate_item(self, text):
-        return self.replace_terms(text, self.item)
-
-    def translate_spell(self, text):
-        return self.replace_terms(text, self.spell)
-
-    def translate_effect(self, text):
-        return self.replace_terms(text, self.effect)
-
     def translate_by_context(self, context, text):
         if context == "UI":
-            return self.translate_ui(text)
+            exact = self.exact_lookup(text, self.ui)
+            if exact:
+                return exact
 
         if context == "ITEM":
-            return self.translate_item(text)
+            exact = self.exact_lookup(text, self.item)
+            if exact:
+                return exact
 
         if context == "SPELL":
-            return self.translate_spell(text)
+            exact = self.exact_lookup(text, self.spell)
+            if exact:
+                return exact
 
         if context == "EFFECT":
-            return self.translate_effect(text)
+            exact = self.exact_lookup(text, self.effect)
+            if exact:
+                return exact
+
+        exact_master = self.exact_lookup(text, self.master)
+        if exact_master:
+            return exact_master
+
+        context_dict = None
+
+        if context == "UI":
+            context_dict = self.ui
+        elif context == "ITEM":
+            context_dict = self.item
+        elif context == "SPELL":
+            context_dict = self.spell
+        elif context == "EFFECT":
+            context_dict = self.effect
+
+        if context_dict:
+            context_result = self.replace_terms(text, context_dict)
+            if context_result:
+                return context_result
+
+        master_result = self.replace_terms(text, self.master)
+        if master_result:
+            return master_result
 
         return None
