@@ -3,6 +3,7 @@ from collections import defaultdict
 from context import detect_context, context_instruction
 from key_overrides import KeyOverrides
 from translator import translate_text
+from normalizer import Normalizer
 
 
 class TranslationEngine:
@@ -12,6 +13,7 @@ class TranslationEngine:
         self.glossary = glossary
         self.dictionary = dictionary
         self.key_overrides = KeyOverrides()
+        self.normalizer = Normalizer()
 
     def translate_data(self, data):
         translated = {}
@@ -42,7 +44,12 @@ class TranslationEngine:
                 translated[key] = dict_result
                 self.cache.add(value, dict_result)
                 continue
+            normal_result = self.normalizer.normalize(value)
 
+            if normal_result:
+                translated[key] = normal_result
+                self.cache.add(value, normal_result)
+                continue
             waiting[value].append(key)
 
         unique_texts = list(waiting.keys())
