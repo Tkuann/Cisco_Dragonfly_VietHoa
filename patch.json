@@ -1,0 +1,48 @@
+{
+  "spell.irons_spellbooks.burning_dash.guide":"Lao nhanh về phía trước trong một làn hỏa diệm, thiêu đốt mọi sinh vật trên đường lướt qua.",
+  "spell.irons_spellbooks.fire_breath.guide":"Giữ để phun ra một luồng hỏa diệm hình nón, thiêu cháy mọi sinh vật và khối trên đường đi.",
+  "spell.irons_spellbooks.angel_wing.guide":"Thi triển để mọc đôi cánh bằng năng lượng Thánh, hoạt động như Elytra trong một khoảng thời gian ngắn.",
+  "spell.irons_spellbooks.evasion.guide":"Thi triển để bao bọc bản thân bằng năng lượng Ender. Khi bị tấn công trong thời gian hiệu lực, bạn sẽ lập tức Dịch Chuyển trong phạm vi ngắn và né tránh hoàn toàn sát thương. Hiệu ứng chỉ có thể né được một số đòn đánh nhất định trước khi biến mất.",
+  "spell.irons_spellbooks.heartstop.guide":"Thi triển để tự áp dụng hiệu ứng Ngưng Tâm, giúp bạn tạm thời bất tử. Khi hiệu ứng kết thúc, bạn sẽ phải nhận 50% tổng sát thương đã tích lũy trong thời gian hiệu lực.",
+  "spell.irons_spellbooks.ray_of_siphoning.guide":"Giữ để thi triển một tia năng lượng hoại tử hút sinh lực của mục tiêu, gây sát thương đồng thời hồi cho bạn lượng Sinh Lực bằng 100% sát thương đã gây ra.",
+  "spell.irons_spellbooks.frost_step.guide":"Dịch Chuyển tới vị trí bạn đang nhìn, để lại phía sau một Bóng Băng. Bóng Băng sẽ thu hút sự chú ý của kẻ địch xung quanh và vỡ thành các mảnh băng sau 5 giây hoặc khi chịu sát thương.",
+  "spell.irons_spellbooks.blaze_storm.guide":"Giữ để phóng liên tiếp hàng loạt Hỏa Cầu Blaze về phía trước. Các quả cầu bay rất nhanh nhưng phân tán và sẽ thiêu cháy mọi sinh vật hoặc khối trúng phải.",
+  "spell.irons_spellbooks.blood_step.guide":"Lập tức Dịch Chuyển tới vị trí bạn đang nhìn hoặc ra phía sau mục tiêu được chọn. Khi đến nơi, bạn nhận hiệu ứng Tàng Hình Thực Sự trong một thời gian ngắn.",
+  "spell.irons_spellbooks.poison_breath.guide":"Phun ra một luồng độc hình nón, gây sát thương và đầu độc mọi sinh vật trong phạm vi.",
+  "spell.irons_spellbooks.acid_orb.guide":"Phóng một quả cầu axit. Khi va chạm, nó bắn tung tóe trong phạm vi, gây hiệu ứng Rách Giáp và làm giảm giáp của mọi sinh vật trúng phải.",
+  "spell.irons_spellbooks.magma_bomb.guide":"Phóng một quả bom dung nham. Khi va chạm, nó phát nổ và để lại một vùng lửa tại vị trí tiếp đất.",
+  "spell.irons_spellbooks.devour.guide":"Kéo một sinh vật ở gần lại rồi cắn xé nó, hút lượng Sinh Lực bằng 15% sát thương gây ra. Nếu mục tiêu bị tiêu diệt, bạn sẽ tạm thời nhận thêm Sinh Lực tối đa. Phép thuật này được tạo ra bởi Đại Pháp Sư Yorhavich.",
+  "spell.irons_spellbooks.firefly_swarm.guide":"Triệu hồi một đàn đom đóm hung bạo truy đuổi mục tiêu đã chọn và gây sát thương diện rộng. Nếu mục tiêu đầu tiên chết, đàn đom đóm sẽ chuyển sang sinh vật gần nhất vừa chịu sát thương.",
+  "spell.irons_spellbooks.ray_of_frost.guide":"Bắn ra một tia hàn khí gây sát thương nhẹ và lập tức tích lũy hiệu ứng Đóng Băng lên mục tiêu.",
+  "spell.irons_spellbooks.divine_smite.guide":"Cường hóa vũ khí bằng năng lượng Thánh rồi tung ra một đòn cận chiến diện rộng. Phép thuật này không thể bị ngắt. Sát thương tăng theo sát thương cận chiến và phù phép trên vũ khí đang cầm.",
+  "spell.irons_spellbooks.thunder_step.guide":"Dịch Chuyển một quãng ngắn về phía trước, để lại phía sau một luồng lôi điện gây sát thương lên mọi sinh vật bạn lướt qua.",
+  "spell.irons_spellbooks.frostwave.guide":"Giải phóng một làn sóng ma thuật Băng quanh bản thân, khiến các sinh vật trúng phải rơi vào trạng thái Giá Lạnh. Khi bị đóng băng hoàn toàn, chúng sẽ bị giam cầm trong băng.",
+  "spell.irons_spellbooks.stomp.guide":"Dùng ma lực giậm mạnh xuống mặt đất phía trước, tạo ra một chấn động lao về phía trước và gây sát thương lên mọi sinh vật trên đường đi.",
+  "spell.irons_spellbooks.flaming_strike.guide":"Tung ra một đòn chém cận chiến quét rộng được bao bọc bởi hỏa diệm. Phép thuật này không thể bị ngắt. Sát thương tăng theo sát thương cận chiến và phù phép trên vũ khí đang cầm.",
+  "spell.irons_spellbooks.thunderstorm.guide":"Thi triển để triệu hồi một cơn giông bao quanh bản thân. Trong suốt thời gian hiệu lực, cứ mỗi 2 giây một tia sét sẽ đánh xuống sinh vật ở gần trong tầm nhìn.",
+  "spell.irons_spellbooks.fire_arrow.guide":"Bắn một Mũi Tên Hỏa Diệm gây sát thương trực tiếp khi va chạm và phát nổ gây một nửa sát thương trong phạm vi nhỏ xung quanh. Mũi tên bay thẳng trong một khoảng thời gian trước khi chịu tác động của trọng lực.",
+  "spell.irons_spellbooks.summon_swords.guide":"Triệu hồi ba thanh kiếm linh hồn hỗ trợ chiến đấu: một Đoản Kiếm thiên về cận chiến, một Kiếm Mảnh tốc độ cao và một Đại Kiếm phòng thủ. Phép thuật này được tạo ra bởi Đại Pháp Sư Hazentouvel.",
+  "effect.irons_spellbooks.frostbite.description":"Trong thời gian hiệu ứng còn tác dụng, mọi sinh vật bị đóng băng hoàn toàn mà bạn tiêu diệt sẽ biến thành Bóng Băng. Bóng Băng sẽ vỡ thành các mảnh băng sau 5 giây hoặc khi chịu bất kỳ sát thương nào.",
+
+  "advancements.irons_spellbooks.staff_root.description":"Sở hữu một Trượng Pháp. Dùng để thi triển phép thuật!",
+
+  "jukebox_song.irons_spellbooks.whispers_of_ice":"Caner Crebes - Whispers of Ice",
+
+  "item.irons_spellbooks.music_disc_whispers_of_ice.desc":"Caner Crebes - Whispers of Ice",
+
+  "item.apotheosis.gem.irons_spellbooks:cast_time":"Ngọc Ma Thuật: Hiệu Suất Thi Triển",
+
+  "item.apotheosis.gem.irons_spellbooks:cooldown":"Ngọc Ma Thuật: Giảm Hồi Chiêu",
+
+  "item.apotheosis.gem.irons_spellbooks:spell_resist":"Ngọc Ma Thuật: Kháng Phép",
+
+  "affix.irons_spellbooks:spellbook/attribute/cast_time_reduction.suffix":"của Bậc Thi Triển Nhanh",
+
+  "affix.irons_spellbooks:spellbook/attribute/nature_spell_power.suffix":"của Tự Nhiên",
+
+  "affix.irons_spellbooks:sword/attribute/mana_regen.suffix":"của Dòng Chảy Mana",
+
+  "lore.citadel_book.construction_ledger":"Một cuốn sổ ghi chép các giao dịch vật liệu xây dựng, chứa hàng trăm lô hàng với đủ loại vật liệu khác nhau...",
+
+  "lore.citadel_book.training_manual":"Một cuốn cẩm nang huấn luyện đã cũ dành cho những tân binh của quân đoàn; các kỹ thuật bên trong cho thấy trình độ chiến đấu phi thường..."
+}

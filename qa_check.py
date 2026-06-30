@@ -15,23 +15,97 @@ def has_cjk(text):
 def has_english(text):
     text = str(text)
 
-    allowed = [
-        "HP",
+    allowed = {
         "Mana",
+        "Ender",
         "Netherite",
         "Diamond",
         "Iron",
-        "Ender",
+        "Gold",
+        "Copper",
+        "Emerald",
+        "Ruby",
+        "Sapphire",
+        "Pyrium",
+        "Mithril",
+        "Druid",
+        "Minecraft",
+        "HP",
         "AOE",
         "Boss"
-    ]
+    }
 
-    cleaned = text
+    suspicious = {
+        "Dropped",
+        "Drop",
+        "Use",
+        "Using",
+        "Spell",
+        "Spellbook",
+        "Book",
+        "Guide",
+        "Upgrade",
+        "Improvement",
+        "Capacity",
+        "Slot",
+        "Armor",
+        "Robe",
+        "Boots",
+        "Helmet",
+        "Chestplate",
+        "Leggings",
+        "Hat",
+        "Hood",
+        "Staff",
+        "Sword",
+        "Bow",
+        "Ring",
+        "Amulet",
+        "Rune",
+        "Potion",
+        "Splash",
+        "Lingering",
+        "Arrow",
+        "Spawn",
+        "Egg",
+        "Magic",
+        "Resistance",
+        "Cooldown",
+        "Recovery",
+        "Fire",
+        "Ice",
+        "Lightning",
+        "Blood",
+        "Holy",
+        "Nature",
+        "Arcane",
+        "Void",
+        "Eldritch",
+        "Wizard",
+        "Mage",
+        "Battlemage",
+        "Pyromancer",
+        "Cryomancer",
+        "Electromancer",
+        "Necromancer",
+        "Shadowwalker",
+        "Archevoker",
+        "Blank",
+        "Protective",
+        "Improves",
+        "of"
+    }
 
-    for word in allowed:
-        cleaned = cleaned.replace(word, "")
+    words = re.findall(r"[A-Za-z]+", text)
 
-    return bool(ENGLISH_PATTERN.search(cleaned))
+    for word in words:
+        if word in allowed:
+            continue
+
+        if word in suspicious:
+            return True
+
+    return False
 
 
 def check_file(path):
